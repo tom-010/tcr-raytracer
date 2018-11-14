@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Belly" tests="1" skipped="1" failures="0" errors="0" timestamp="2018-11-14T20:21:31" hostname="thomas-skytala" time="0.005">
+  <properties/>
+  <testcase name="a few cukes" classname="Belly" time="0.005">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Feature: Belly
+
+  Scenario: a few cukes               ?[90m# io/deniffel/raytracer/belly.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI have ?[0m?[32m?[1m42?[0m?[32m cukes in my belly?[0m ?[90m# Stepdefs.I_have_cukes_in_my_belly(int)?[0m
+    ?[33mWhen ?[0m?[33mI wait 1 hour?[0m                ?[90m# null?[0m
+    ?[33mThen ?[0m?[33mmy belly should growl?[0m        ?[90m# null?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

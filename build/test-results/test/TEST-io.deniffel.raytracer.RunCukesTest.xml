@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.deniffel.raytracer.RunCukesTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="thomas-skytala" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[33mUndefined scenarios:?[0m
+?[33mio/deniffel/raytracer/belly.feature:3 ?[0m# a few cukes
+
+1 Scenarios (?[33m1 undefined?[0m)
+3 Steps (?[33m2 undefined?[0m, ?[32m1 passed?[0m)
+0m0.107s
+
+
+You can implement missing steps with the snippets below:
+
+@When("I wait {int} hour")
+public void i_wait_hour(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Then("my belly should growl")
+public void my_belly_should_growl() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
