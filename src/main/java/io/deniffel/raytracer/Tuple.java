@@ -1,5 +1,7 @@
 package io.deniffel.raytracer;
 
+import java.util.Objects;
+
 public class Tuple {
 
     public final double x;
@@ -23,5 +25,22 @@ public class Tuple {
             return new Point(x, y, z);
 
         return new Tuple(x, y, z, w);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Tuple tuple = (Tuple) o;
+        return Double.compare(tuple.x, x) == 0 &&
+                Double.compare(tuple.y, y) == 0 &&
+                Double.compare(tuple.z, z) == 0 &&
+                Double.compare(tuple.w, w) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(x, y, z, w);
     }
 }

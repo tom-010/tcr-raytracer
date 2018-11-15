@@ -26,4 +26,16 @@ public class TupleTests {
         Tuple t = Tuple.of(4.3, -4.2, 3.1, 0.0);
         assertTrue(t instanceof Vector);
     }
+
+    @Test
+    public void tupleEquality() {
+        Tuple t = Tuple.of(1,1,1,1);
+
+        assertEquals(t, Tuple.of(1,1,1,1));
+
+        assertNotEquals(t, Tuple.of(2,1,1,1));
+        assertNotEquals(t, Tuple.of(1,2,1,1));
+        assertNotEquals(t, Tuple.of(1,1,2,1));
+        assertNotEquals(t, Tuple.of(1,1,1,2));
+    }
 }
