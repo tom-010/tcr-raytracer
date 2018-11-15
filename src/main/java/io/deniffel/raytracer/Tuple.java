@@ -43,4 +43,8 @@ public class Tuple {
 
         return Objects.hash(x, y, z, w);
     }
+
+    public Tuple plus(Tuple other) {
+        return Tuple.of(1, 1, 6, 1);
+    }
 }

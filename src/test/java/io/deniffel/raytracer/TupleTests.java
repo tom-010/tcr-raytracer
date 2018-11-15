@@ -38,4 +38,12 @@ public class TupleTests {
         assertNotEquals(t, Tuple.of(1,1,2,1));
         assertNotEquals(t, Tuple.of(1,1,1,2));
     }
+
+    @Test
+    public void adding() {
+        Tuple one = Tuple.of(3, -2, 5, 1);
+        Tuple two = Tuple.of(-2, 3, 1, 0);
+        Tuple result = one.plus(two);
+        assertEquals(Tuple.of(1, 1, 6, 1), result);
+    }
 }
