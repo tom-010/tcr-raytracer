@@ -45,6 +45,10 @@ public class Tuple {
     }
 
     public Tuple plus(Tuple other) {
-        return Tuple.of(1, 1, 6, 1);
+        return Tuple.of(
+                x + other.x,
+                y + other.y,
+                z + other.z,
+                w + other.w);
     }
 }
