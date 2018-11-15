@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Belly" tests="1" skipped="1" failures="0" errors="0" timestamp="2018-11-15T16:25:21" hostname="thomas-skytala" time="0.005">
+<testsuite name="Belly" tests="1" skipped="1" failures="0" errors="0" timestamp="2018-11-15T16:27:55" hostname="thomas-skytala" time="0.005">
   <properties/>
   <testcase name="a few cukes" classname="Belly" time="0.005">
     <skipped/>

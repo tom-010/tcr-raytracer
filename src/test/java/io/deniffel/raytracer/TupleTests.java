@@ -46,4 +46,13 @@ public class TupleTests {
         Tuple result = one.plus(two);
         assertEquals(Tuple.of(1, 1, 6, 1), result);
     }
+
+    @Test
+    public void addingImmutable() {
+        Tuple one = Tuple.of(3, -2, 5, 1);
+        Tuple two = Tuple.of(-2, 3, 1, 0);
+        one.plus(two);
+        assertEquals(Tuple.of(3, -2, 5, 1), one);
+        assertEquals(Tuple.of(-2, 3, 1, 0), two);
+    }
 }
