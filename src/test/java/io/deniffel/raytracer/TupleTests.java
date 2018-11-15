@@ -15,11 +15,11 @@ public class TupleTests {
         assertEquals(1.0, t.w, 0.0001);
     }
 
-//    @Test
-//    public void tupleWithW1_isAPoint() {
-//        Tuple t = Tuple.of(4.3, -4.2, 3.1, 1.0);
-//        assertTrue(t instanceof Point);
-//    }
+    @Test
+    public void tupleWithW1_isAPoint() {
+        Tuple t = Tuple.of(4.3, -4.2, 3.1, 1.0);
+        assertTrue(t instanceof Point);
+    }
 
 
 
