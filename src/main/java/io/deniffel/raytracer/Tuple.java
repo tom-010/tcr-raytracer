@@ -16,6 +16,9 @@ public class Tuple {
 
 
     public static Tuple of(double x, double y, double z, double w) {
+        if(w == 0.)
+            return new Vector(x, y, z);
+
         if(w == 1.)
             return new Point(x, y, z);
 

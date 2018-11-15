@@ -21,7 +21,9 @@ public class TupleTests {
         assertTrue(t instanceof Point);
     }
 
-
-
-
+    @Test
+    public void tupleWith0_aVector() {
+        Tuple t = Tuple.of(4.3, -4.2, 3.1, 0.0);
+        assertTrue(t instanceof Vector);
+    }
 }
