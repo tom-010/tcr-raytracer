@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46815445-0305-4036-a957-0019b382a0bc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Belly.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Belly.html" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/io.deniffel.raytracer.RunCukesTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/io.deniffel.raytracer.RunCukesTest.html" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/io.deniffel.raytracer.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/io.deniffel.raytracer.html" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Belly.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Belly.xml" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-io.deniffel.raytracer.RunCukesTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-io.deniffel.raytracer.RunCukesTest.xml" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,25 +39,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TupleTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TupleTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="534">
+              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1542299269551" expanded="true" signature="1064:1247" ph="{...}" />
-                <marker date="1542299269551" expanded="true" signature="1293:1509" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tuple.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tuple.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -380,8 +395,8 @@
         <option value="$PROJECT_DIR$/blog/01.md" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Point.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Vector.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java" />
       </list>
     </option>
   </component>
@@ -674,15 +689,16 @@
       <option name="presentableId" value="Default" />
       <updated>1542226209609</updated>
       <workItem from="1542226211523" duration="1769000" />
-      <workItem from="1542291386199" duration="4945000" />
+      <workItem from="1542291386199" duration="5304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6714000" />
+    <option name="totallyTimeSpent" value="7073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="0" width="1416" height="1628" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -705,7 +721,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21908396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -837,23 +853,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1542299269551" expanded="true" signature="1064:1247" ph="{...}" />
-            <marker date="1542299269551" expanded="true" signature="1293:1509" ph="{...}" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/raytracer/Tuple.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/raytracer/TupleTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="534">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

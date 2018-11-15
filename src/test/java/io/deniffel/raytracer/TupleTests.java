@@ -55,4 +55,21 @@ public class TupleTests {
         assertEquals(Tuple.of(3, -2, 5, 1), one);
         assertEquals(Tuple.of(-2, 3, 1, 0), two);
     }
+
+    @Test
+    public void subtracting() {
+        Tuple one = Tuple.of(3, -2, 5, 1);
+        Tuple two = Tuple.of(-2, 3, 1, 0);
+        Tuple result = one.minus(two);
+        assertEquals(Tuple.of(5, -5, 4, 1), result);
+    }
+
+    @Test
+    public void minusImmutable() {
+        Tuple one = Tuple.of(3, -2, 5, 1);
+        Tuple two = Tuple.of(-2, 3, 1, 0);
+        one.minus(two);
+        assertEquals(Tuple.of(3, -2, 5, 1), one);
+        assertEquals(Tuple.of(-2, 3, 1, 0), two);
+    }
 }

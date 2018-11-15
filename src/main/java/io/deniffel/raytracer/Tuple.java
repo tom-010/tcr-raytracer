@@ -51,4 +51,12 @@ public class Tuple {
                 z + other.z,
                 w + other.w);
     }
+
+    public Tuple minus(Tuple other) {
+        return Tuple.of(
+                x - other.x,
+                y - other.y,
+                z - other.z,
+                w - other.w);
+    }
 }
